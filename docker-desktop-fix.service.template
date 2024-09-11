@@ -1,0 +1,9 @@
+[Unit]
+Description=Remove restrictions to unpriviledged namespaces for Docker Desktop
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh PWD/script.sh
+
+[Install]
+WantedBy=multi-user.target
