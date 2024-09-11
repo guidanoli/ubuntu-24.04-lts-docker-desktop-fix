@@ -6,15 +6,15 @@ According to the official Docker Desktop [installation page](https://docs.docker
 
 So I decided to write a small service for doing just that.
 
-## Requirements
-
-- GNU Make
-- GNU sed
-- systemd
-
 ## Installation
 
-Simply run:
+1. First, clone this repository anywhere.
 
-- `sudo make install` for copying the service file to your `/etc/systemd/system` folder;
-- and `sudo make enable` for enabling such service.
+```sh
+git clone https://github.com/guidanoli/ubuntu-24.04-lts-docker-desktop-fix
+```
+
+2. Then, copy the Shell script to `/usr/libexec`.
+
+```sh
+```
