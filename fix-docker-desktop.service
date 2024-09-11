@@ -3,7 +3,7 @@ Description=Remove restrictions to unpriviledged namespaces for Docker Desktop
 
 [Service]
 Type=oneshot
-ExecStart=/bin/libexec/fix-docker-desktop
+ExecStart=/usr/libexec/fix-docker-desktop
 
 [Install]
 WantedBy=multi-user.target
